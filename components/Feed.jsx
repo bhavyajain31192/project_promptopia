@@ -81,6 +81,7 @@ const Feed = () => {
       </form>
 
       {/* All Prompts */}
+      
       {searchText ? (
         <PromptCardList
           data={searchedResults}
